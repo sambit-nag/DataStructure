@@ -19,8 +19,8 @@ public class TestLinkedList {
        // singlyLinkedList.deleteFromPosition(86);
        // singlyLinkedList.deleteFromStart();
         singlyLinkedList.searchElement(0);
-        System.out.println(singlyLinkedList.getNthNodeFromEnd(5));
-        System.out.println(singlyLinkedList.getNthNodeFromEndUsingPointer(6));
+        System.out.println(singlyLinkedList.getNthNodeFromEnd(6));
+        System.out.println(singlyLinkedList.getNthNodeFromEndUsingPoint(5));
 
         Node a=new Node(10);
         Node b=new Node(20);a.setNextNode(b);

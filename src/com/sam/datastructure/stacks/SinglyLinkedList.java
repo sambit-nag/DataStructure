@@ -125,6 +125,29 @@ public class SinglyLinkedList <T> {
         return (T) nthNode.getData();
     }
 
+    public T getNthNodeFromEndUsingPoint(int n) {
+        Node nthNode = head;
+        Node temp = head;
+        int i=1;
+
+        while(temp!=null){
+
+        if(i<=n){
+
+            temp=temp.getNextNode();
+            i++;
+
+        }else{
+            nthNode=nthNode.getNextNode();
+            temp=temp.getNextNode();
+
+
+        }
+
+        }
+
+        return (T) nthNode.getData();
+    }
     public T getNthNodeFromEndUsingRecursion(Node head, int n) {
         Node temp = head;
         int count = 0;

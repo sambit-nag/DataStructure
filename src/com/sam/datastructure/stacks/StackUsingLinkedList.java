@@ -9,5 +9,11 @@ public class StackUsingLinkedList {
     public void push(int element){
         stackLL.add(element);
     }
+
+    public int pop(){
+
+        return stackLL.pop();
+
+    }
 }
 
